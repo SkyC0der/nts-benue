@@ -4,7 +4,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Landing from "./components/Landing";
+import Landing from "./components/landing";
 import SignUp from "./components/register";
 import Login from "./components/login";
 import AllergyPage from "./components/allergyPage";
