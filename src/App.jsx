@@ -10,6 +10,9 @@ import Login from "./components/login";
 import AllergyPage from "./components/allergyPage";
 import NextKin from "./components/nextKin";
 import Final from "./components/final";
+import MultiStepForm from "./components/Form";
+import FounderOnboarding from "./components/test";
+import BackgroundAudio from "./components/BackgroundAudio";
 // import { auth } from "./components/firebase";
 
 function App() {
@@ -28,13 +31,16 @@ function App() {
       <div className="App">
         <div className="auth-wrapper">
           <div className="auth-inner">
+          <BackgroundAudio/>
             <Routes>
               <Route path="/" element={<Landing />} />
-              <Route path="/login" element={<Login />} />
-              <Route path="/register" element={<SignUp />} />
-              <Route path='/allergyPage' element ={<AllergyPage/>} />
-              <Route path="/nextKin" element ={<NextKin/>} />
-              <Route path="/final" element ={<Final/>}/>
+              {/* <Route path="/login" element={<Login />} /> */}
+              {/* <Route path="/register" element={<SignUp />} /> */}
+              {/* <Route path='/allergyPage' element ={<AllergyPage/>} />
+              <Route path="/nextKin" element ={<NextKin/>} /> */}
+              <Route path="/completed" element ={<Final/>}/>
+              {/* <Route path="/form" element={<MultiStepForm/>}/> */}
+              <Route path="/register" element={<FounderOnboarding/>}/>
             </Routes>
           </div>
         </div>

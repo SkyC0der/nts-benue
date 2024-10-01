@@ -5,8 +5,8 @@ import logo from '../assets/homelogo.png';
 const Final = () => {
   return (
     <div
-      className="min-h-screen w-full bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center px-4 sm:px-6 md:px-8 lg:px-12"
-      style={{ backgroundImage: `url(${homeBackground})` }}
+      className="min-h-screen w-full bg-cover bg-blend-hard-light form-bg bg-[#f1e6c7] bg-center bg-no-repeat flex flex-col justify-center items-center px-4 sm:px-6 md:px-8 lg:px-12"
+    
     >
       <div className="text-center max-w-[95%] sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl w-full">
         <LandingLogo />

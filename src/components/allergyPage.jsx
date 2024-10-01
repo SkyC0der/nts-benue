@@ -7,7 +7,7 @@ const allergyPage = () => {
   const progress = 75;
   return (
     <div
-      className="font-myLocalFont min-h-screen w-full bg-cover bg-center bg-no-repeat flex justify-center items-center p-4"
+      className="font-myLocalFont bg-blend-hard-light bg-[#f1e6c7] min-h-screen w-full bg-cover bg-center bg-no-repeat flex justify-center items-center p-4"
       style={{ backgroundImage: `url(${background})`}}
     >
       <div className="w-full max-w-5xl p-10 rounded-lg shadow-lg relative">
